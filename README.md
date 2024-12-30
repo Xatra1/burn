@@ -1,4 +1,7 @@
 ## Burn is a prompt theme for Zsh.  
+
+![screenshot showing the theme](screenshot.png)
+
 Future official support for the Git plugin is planned, but will not be implemented at the moment.  
 
 ### Installation:
@@ -20,6 +23,3 @@ Future official support for the Git plugin is planned, but will not be implement
     ```
 #### Manual:
 - Copy the contents of ``burn.zsh-theme`` into your ``.zshrc``.
-  
-## Example:  
-![screenshot showing the theme](screenshot.png)
