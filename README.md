@@ -1,6 +1,7 @@
 ## Burn is a prompt theme for Zsh.  
 
-![screenshot showing the theme](screenshot.png)
+![screenshot showing Burn](screenshot.png)
+![screenshot showing Burn Black](screenshot2.png)
 
 Future official support for the Git plugin is planned, but will not be implemented at the moment.  
 
@@ -12,14 +13,14 @@ Future official support for the Git plugin is planned, but will not be implement
     ```
     plugins=(
         # other plugins...
-        burn
+        burn # or burn-black
     )
     ```
 #### [zinit](https://github.com/zdharma-continuum/zinit)
 - add this in your `.zshrc`:
     ```
     zinit load Xatra1/burn
-    ZSH_THEME="burn"
+    ZSH_THEME="burn" # or ZSH_THEME="burn-black"
     ```
 #### Manual:
-- Copy the contents of ``burn.zsh-theme`` into your ``.zshrc``.
+- Copy the contents of ``burn.zsh-theme`` or ``burn-black.zsh-theme`` into your ``.zshrc``.
