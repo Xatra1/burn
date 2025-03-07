@@ -23,4 +23,4 @@ Future official support for the Git plugin is planned, but will not be implement
     ZSH_THEME="burn" # or ZSH_THEME="burn-black", ZSH_THEME="burn-blue"
     ```
 #### Manual:
-- Copy the contents of theme you want into your ``.zshrc``.
+- Copy the contents of the theme you want into your ``.zshrc``.
