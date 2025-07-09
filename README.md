@@ -4,8 +4,7 @@
 ![screenshot showing Burn](screenshots/screenshot.png)  
 ![screenshot showing Burn Black](screenshots/screenshot2.png)  
 ![screenshot showing Burn Blue](screenshots/screenshot3.png)  
-
-Future official support for the Git plugin is planned, but will not be implemented at the moment.  
+![screenshot showing Burn Purple](screenshots/screenshot4.png)  
 
 ### Installation:
 
@@ -14,13 +13,13 @@ Future official support for the Git plugin is planned, but will not be implement
 * Replace both instances of \<theme-name\> with the name of the theme variant you want.
 - add this in your `.zshrc`:
     ```shell
-    ZSH_THEME="burn" # or ZSH_THEME="burn-black", ZSH_THEME="burn-blue"
+    ZSH_THEME="burn" # or ZSH_THEME="burn-black", ZSH_THEME="burn-blue", ZSH_THEME="burn-purple"
     ```
 #### [zinit](https://github.com/zdharma-continuum/zinit)
 - add this in your `.zshrc`:
     ```shell
     zinit load Xatra1/burn
-    ZSH_THEME="burn" # or ZSH_THEME="burn-black", ZSH_THEME="burn-blue"
+    ZSH_THEME="burn" # or ZSH_THEME="burn-black", ZSH_THEME="burn-blue", ZSH_THEME="burn-purple"
     ```
 #### Manual:
 - Copy the contents of the theme you want into your ``.zshrc``.
