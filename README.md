@@ -6,6 +6,8 @@
 ![screenshot showing Burn Blue](screenshots/screenshot3.png)  
 ![screenshot showing Burn Purple](screenshots/screenshot4.png)  
 
+- The actual look of each prompt may change based on your terminal's color scheme.
+
 ### Installation:
 
 #### [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
