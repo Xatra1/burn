@@ -1,4 +1,8 @@
-## Burn is a prompt theme for Zsh.  
+Burn is a prompt theme for Zsh.
+
+**NOTE: You will need a Nerd Font for this to show up as it should!**
+
+You can patch the nerd font glyphs into an existing font using the Python script found [here.](https://github.com/ryanoasis/nerd-fonts/releases/latest) (FontPatcher.zip)
 
 ### Examples
 ![screenshot showing Burn](screenshots/screenshot.png)  
