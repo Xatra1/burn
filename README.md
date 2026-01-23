@@ -36,4 +36,4 @@ BURN_FOREGROUND_COLOR_DIR="white"
 ```
 These can be modified in your ``.zshrc`` to get Burn to look any way you want!  
 
-You can either use the color's name (if the named color is one of the [16 system colors](https://www.ditig.com/256-colors-cheat-sheet#xterm-system-colors)) or an HTML color code.
+The variable values can be either the color's name (if the named color is one of the [16 system colors](https://www.ditig.com/256-colors-cheat-sheet#xterm-system-colors)) or an HTML color code.
