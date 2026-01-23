@@ -21,8 +21,10 @@ You can either use the color's name (if the named color is one of the [16 system
 
 #### [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 - Download the theme: 
-    ```wget -O${ZSH_CUSTOM}/themes/burn.zsh-theme https://raw.githubusercontent.com/Xatra1/burn/refs/heads/master/burn.zsh-theme```
-- And this in your `.zshrc`:
+    ```shell
+  wget -O${ZSH_CUSTOM}/themes/burn.zsh-theme https://raw.githubusercontent.com/Xatra1/burn/refs/heads/master/burn.zsh-theme
+    ```
+- And add this in your `.zshrc`:
     ```shell
     ZSH_THEME="burn"
     ```
