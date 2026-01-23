@@ -24,7 +24,7 @@
     ZSH_THEME="burn"
     ```
 #### Manual:
-- Copy the contents of the theme you want into your ``.zshrc``.
+- Copy the contents of ``burn.zsh-theme`` into your ``.zshrc``.
 
 ### Configuration
 By default, Burn sets four environment variables:
