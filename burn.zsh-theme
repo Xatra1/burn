@@ -1,1 +1,6 @@
-PS1='%{%K{white}%F{red}%} %n@%m %{%K{red}%F{white}%}'$'\ue0b0'' %~ %{%K{default}%F{red}%} %{%F{white}%}'
+: ${BURN_BACKGROUND_COLOR_HOSTNAME:="white"}
+: ${BURN_BACKGROUND_COLOR_DIR:="red"}
+: ${BURN_FONT_COLOR_HOSTNAME:="red"}
+: ${BURN_FONT_COLOR_DIR:="white"}
+
+PS1='%{%K{${BURN_BACKGROUND_COLOR_HOSTNAME}}%F{${BURN_BACKGROUND_COLOR_DIR}}%} %n@%m %{%K{${BURN_FONT_COLOR_HOSTNAME}}%F{${BURN_FONT_COLOR_DIR}}%}'$'\ue0b0'' %~ %{%K{default}%F{${BURN_BACKGROUND_COLOR_DIR}}%}'$'\ue0c0''  %{%F{default}%}'
