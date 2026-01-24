@@ -1,3 +1,5 @@
+# WARN: Do not change these values! If you want to customize Burn, define them 
+# in your .zshrc with the value you wish to set.
 : ${BURN_BACKGROUND_COLOR_ERROR:="red"}
 : ${BURN_BACKGROUND_COLOR_HOSTNAME:="white"}
 : ${BURN_BACKGROUND_COLOR_DIR:="red"}
