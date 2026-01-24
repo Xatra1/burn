@@ -5,6 +5,7 @@
 ![screenshot showing Burn Black](screenshots/screenshot2.png)  
 ![screenshot showing Burn Blue](screenshots/screenshot3.png)  
 ![screenshot showing Burn Purple](screenshots/screenshot4.png)  
+![screenshot showcasing error code display](screenshots/screenshot5.png)
 
 ### Installation:
 
