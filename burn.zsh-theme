@@ -1,12 +1,15 @@
+: ${BURN_BACKGROUND_COLOR_ERROR:="red"}
 : ${BURN_BACKGROUND_COLOR_HOSTNAME:="white"}
 : ${BURN_BACKGROUND_COLOR_DIR:="red"}
+
+: ${BURN_FOREGROUND_COLOR_ERROR:="white"}
 : ${BURN_FOREGROUND_COLOR_HOSTNAME:="red"}
 : ${BURN_FOREGROUND_COLOR_DIR:="white"}
 
 errorCheck() {
   RETVAL=$?
   if [ ! "$RETVAL" = "0" ]; then
-    PS1='%{%K{red}%F{white}%} ($?) %{%K{$BURN_BACKGROUND_COLOR_HOSTNAME}%F{red}%}'$'\ue0b0''%{%K{default}%F{default}%}'
+    PS1='%{%K{${BURN_BACKGROUND_COLOR_ERROR}}%F{${BURN_FOREGROUND_COLOR_ERROR}}%} ($?) %{%K{$BURN_BACKGROUND_COLOR_HOSTNAME}%F{${BURN_BACKGROUND_COLOR_ERROR}}%}'$'\ue0b0''%{%K{default}%F{default}%}'
     PS1+=$PS1_DEFAULT_STATE
   else
     PS1=$PS1_DEFAULT_STATE
